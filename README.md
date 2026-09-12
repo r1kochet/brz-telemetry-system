@@ -12,4 +12,10 @@ A modular CAN-based telemetry system for a 2014 Subaru BRZ.
 
 ## Current Status
 
-Planning the system architecture and acquiring CAN-interface hardware.
+Planning system architecture and configuring/acclimating to github/nvim
+
+## Documentation
+
+- [System Requirements](docs/requirements.md)
+- [System Architecture](docs/architecture.md)
+- [Build Log](docs/build-log.md)
