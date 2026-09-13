@@ -7,7 +7,7 @@ The proposed BRZ telemetry system consists of a central controller that drives t
 ```mermaid
 flowchart TD
     OBD["BRZ OBD-II Port"] --> SPLIT["OBD-II Y-Splitter"]
-    SPLIT --> SERVICE["Accessible Diagnostic Port"]
+    SPLIT --> SERVICE["Accessible Diagnostic Port (for future use)"]
     SPLIT --> CTRL["Telemetry Controller"]
     CTRL --> SHIFT["RPM Shift Light"]
     CTRL --> FUEL["Range and MPG Display"]
